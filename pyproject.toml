@@ -1,0 +1,14 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool]
+[tool.poetry]
+authors = ["henderj <<>>"]
+description = ""
+name = "dominos-1"
+version = "0.1.0"
+[tool.poetry.dependencies]
+python = "^3.8"
+open-spiel = "^1.0.2"
+[tool.poetry.dev-dependencies]
